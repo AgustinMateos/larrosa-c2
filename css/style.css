@@ -1,0 +1,78 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Header__Titulo__Fondo {
+  background-image: url(../imagenes/modelo-de-la-tela-escocesa-del-leñador-en-rojo-y-negro-modelo-inconsútil-del-vector-diseño-simple-de-la-materia-textil-del-95112081.jpeg);
+}
+
+.header__altura {
+  height: 600px;
+}
+
+.bordes {
+  height: 200px;
+  width: 200px;
+  border-radius: 120px;
+  margin-top: 0px;
+}
+
+.titulo {
+  font-size: 100px;
+}
+
+.conteiner {
+  margin: 0px;
+}
+
+.contenedor__titulo {
+  padding-left: 280px;
+}
+
+.flex-direction {
+  flex-direction: column;
+}
+
+.footer__fondo {
+  background-image: url(../imagenes/modelo-de-la-tela-escocesa-del-leñador-en-rojo-y-negro-modelo-inconsútil-del-vector-diseño-simple-de-la-materia-textil-del-95112081.jpeg);
+}
+
+.fuente__letra {
+  font-family: 'Macondo', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.size__letra__menu {
+  font-size: 30px;
+}
+
+.size__letra__titulo {
+  font-size: 200px;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.imagenes {
+  width: 500px;
+  height: 700px;
+}
+
+.footer__height {
+  height: 200px;
+}
+
+.index__fondo__main {
+  background-color: black;
+}
+
+.index__titulo__style {
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+/*# sourceMappingURL=style.css.map */
