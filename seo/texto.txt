@@ -1,0 +1,10 @@
+en el dia viernes detecte que el trabajo subido
+a github tenia un error, en vez de figurar las 
+secciones y carpetas de mi trabajo, se encontraba
+por delante una carpeta llamada escritorio. La misma
+te direccionaba a las carpetas y las secciones.
+Se procedio a crear un nuevo repocitorio y asi 
+varios tenian un error en comun, en live server 
+se ve tal cual lo trabajado, pero en chrome no 
+se visualizaban la mitad de las imagenes, 
+tuve que proceder a poner fondo negro.
