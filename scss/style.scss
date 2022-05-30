@@ -1,3 +1,5 @@
+@import "larrosa/indexQueries";
+
 * {
     padding: 0;
     margin: 0;
@@ -5,18 +7,18 @@
 }
 
 .Header__Titulo__Fondo {
-   background-image: url(../imagenes/modelo-de-la-tela-escocesa-del-leñador-en-rojo-y-negro-modelo-inconsútil-del-vector-diseño-simple-de-la-materia-textil-del-95112081.jpeg);
+  background-color: black;height: 600px;
 }
 
 .header__altura {
     height: 600px;
 }
 
-.bordes {
-    height: 200px;
-    width: 200px;
-    border-radius: 120px;
-    margin-top: 0px;
+.img__logo {
+    height: 250px;
+    width: 250px;border: 2px solid white; border-radius: 170px;
+    margin-top: 30px;
+    padding-top:20px;
 }
 
 .titulo {
@@ -26,14 +28,12 @@
 .conteiner {
     margin: 0px;
 }
-
-.contenedor__titulo {
-    padding-left: 280px;
-}
-
+.justify-content{justify-content: center;}
+.justify-content1{justify-content: flex-end;}
 .flex-direction {
     flex-direction: column;
 }
+
 
 .footer__fondo {
    background-color: black;
@@ -59,7 +59,7 @@
 
 .imagenes {
     width: 500px;
-    height: 700px;
+    height: 700px;border: 10px solid white; border-radius: 170px;
 }
 
 .footer__height {
@@ -68,13 +68,26 @@
 
 .index__fondo__main {
     background-color: black;
+    height: 1200px;
+    border: 10px solid white;
 }
-
+.justify-content{justify-content: space-evenly;}
 .index__titulo__style {
     color: white;
     -webkit-text-stroke: 2px black;
 }
-
+.contenedor__logo__text{margin-top: 20px;}
 .navbar {
     padding-bottom: 0rem;
 }
+.footer__texto{color: white;padding-left: 285px;}
+.footer__texto2{color: white;padding-left: 185px;font-family: 1px;}
+.logotipo__texto{color: white; margin-top: 0;
+    margin-bottom: 1rem;margin-left: 280px;border: 2px solid white; border-radius: 100px;}
+.botones__index__H{font-size: 40px; border: 4px solid white;margin-top: 90px; font-family: "Permanent Marker";padding-left: 60px;width: 380px;}
+.botones__index__M{font-size: 40px; border: 4px solid white;margin-top: 90px; font-family: "Permanent Marker";padding-left: 60px;width: 380px;}
+.since__header{    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;font-size: 40px;}
