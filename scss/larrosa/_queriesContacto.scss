@@ -1,0 +1,42 @@
+@media screen and (max-width:767px) {
+.contenedor__main__contacto{background-color: black; }
+.caja__texto__formulario{padding-left: 100px; font-size:30px;border: none; height: 1000px; width: 900px;}
+.cajitas__texto__formulario{padding-top: 40px; padding-bottom: 20px; color: white;}
+.contacto_botonEnviar{ color: black; width: 100px;margin-left: 210px;}
+.tituloContacto{padding-left: 100px;}
+}
+
+@media screen and (max-width:659px) {
+    .tituloContacto{padding-left: 40px;}
+    }
+
+@media screen and (max-width:582px) {
+    .contenedor__main__contacto{background-color: black;}
+    .caja__texto__formulario{padding-left: 50px; font-size:30px; height: 1000px; width: 600px;}
+    .cajitas__texto__formulario{padding-top: 40px; padding-bottom: 20px; color: white;}
+    .contacto_botonEnviar{ color: black; width: 100px;margin-left: 210px;}
+    .tituloContacto{padding-left: 9px;}
+        }
+
+@media screen and (max-width:521px) {
+    .contenedor__main__contacto{background-color: black;}
+    .caja__texto__formulario{padding-left: 50px; font-size:20px; height: 700px; width: 600px;}
+    .cajitas__texto__formulario{padding-top: 40px; padding-bottom: 20px; color: white;}
+    .contacto_botonEnviar{ color: black; width: 100px;margin-left: 200px;}
+  
+        }
+
+@media screen and (max-width:459px) {
+            
+            .caja__texto__formulario{padding-left: 50px; font-size:20px; height: 800px; width: 500px;}
+            .contacto_botonEnviar{ color: black; width: 100px;margin-left: 120px;}
+          
+                }
+@media screen and (max-width:359px) {
+            
+                    .caja__texto__formulario{padding-left: 50px; font-size:17px; height: 800px; width: 500px;}
+                   
+                  
+                        }
+                        
+                
