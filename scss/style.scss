@@ -1,25 +1,10 @@
+@import "larrosa/universales";
+@import "larrosa/flex";
+@import "larrosa/headerIndex";
+@import "larrosa/mujeresMain";
+@import "larrosa/footer";
 
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.Header__Titulo__Fondo {
-  background-color: black;height: 600px;
-}
-
-.header__altura {
-    height: 600px;
-}
-
-.img__logo {
-    height: 250px;
-    width: 250px;border: 2px solid white; border-radius: 170px;
-    margin-top: 30px;
-    padding-top:20px;
-}
 
 .titulo {
     font-size: 100px;
@@ -29,21 +14,12 @@
     margin: 0px;
 }
 
-.justify-content{justify-content: center;}
-.justify-content1{justify-content: flex-end;}
-.flex-direction {flex-direction: column;}
 
 
 
-.footer__fondo {
-   background-color: black;
-}
 
-.fuente__letra {
-    font-family: 'Macondo', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Permanent Marker', cursive;
-}
+
+
 
 .size__letra__menu {
     font-size: 30px
@@ -94,5 +70,7 @@
 .botones__caja{padding: 300px;}
 .padding__titulo__main{padding-left: 0px;}
 .padding__contenedor{padding-left: 0px}
-.margin__bottom{margin-bottom:90px}
+
+
 @import "larrosa/queriesIndex.scss";
+@import "larrosa/queriesMujeres"

@@ -132,19 +132,18 @@
     .footer__texto2 {
         padding-left: 160px;
     }
-   
-}
-
-
-
-@media screen and (max-width:690px) {
    .size__letra__menu {
     font-size: 20px
 }
 .flex-direction {
     flex-direction: row;
 }
+
+    .Header__Titulo__Fondo {
+       height: 700px;
+      }
 }
+
 
 @media screen and (max-width:502px) {
     .size__letra__titulo {
@@ -380,5 +379,15 @@
         background-color: black;
         height: 700px;
     }
-   
+    .padding__contenedor {
+        padding-left: 20px;
+    }
+ }
+
+
+ @media screen and (max-width:326px) {
+  
+    .size__letra__titulo {
+        font-size: 65px
+    }
  }
