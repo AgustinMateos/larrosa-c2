@@ -1,4 +1,4 @@
-.contenedor__main__contacto{background-color: black;}
+.contenedor__main__contacto{background-color: black;    border: 10px solid white; height: 1300px;}
 .caja__texto__formulario{padding-left: 100px; font-size:30px;border: 3px white solid; border-radius: 100px; height: 800px; width: 900px;}
-.cajitas__texto__formulario{padding-top: 40px; padding-bottom: 20px; color: white;}
+.cajitas__texto__formulario{padding-top: 40px; padding-bottom: 20px; color: $color-primncipal;}
 .contacto_botonEnviar{ color: black; width: 100px;margin-left: 310px;}

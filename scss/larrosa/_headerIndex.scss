@@ -1,37 +1,43 @@
 .Header__Titulo__Fondo {
-    background-color: black;height: 600px;
-  }
-  
-  .header__altura {
-      height: 600px;
-  }
-  
-  .img__logo {
-      height: 250px;
-      width: 250px;border: 2px solid white; border-radius: 170px;
-      margin-top: 30px;
-      padding-top:20px;
-  }
-  .navbar {
+    background-color: black;
+    height: 600px;
+    border: 10px solid white;
+
+    .img__logo {
+        height: 250px;
+        width: 250px;
+        border: 2px solid white;
+        border-radius: 170px;
+        margin-top: 30px;
+        padding-top: 20px;
+    }
+
+    .since__header {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color:$color-primncipal;
+        padding-left: 20px;
+        padding-top: 30px;
+        font-size: 40px;
+    }
+}
+
+.size__letra__menu {
+    font-size: 30px
+}
+
+.navbar {
     padding-bottom: 0rem;
 }
-.index__titulo__style {
-    color: white;
-    -webkit-text-stroke: 2px black;
+
+.contenedor__logo__text {
+    margin-top: 20px;
 }
-.contenedor__logo__text{margin-top: 20px;}
 
+.botones__caja {
+    padding: 300px;
+}
 
-
-.since__header{    margin-top: 0;
-    margin-bottom: 1rem;
-    color: white;
-    padding-left: 20px;
-    padding-top: 30px;font-size: 40px;}
-.botones__caja{padding: 300px;}
-
-.padding__contenedor{padding-left: 0px}
-.imagenes {
-    width: 500px;
-    height: 700px;border: 10px solid white; border-radius: 170px;
+.navbar-toggler {
+    background-color: $color-primncipal;
 }

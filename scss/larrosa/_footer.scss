@@ -1,8 +1,30 @@
 .footer__fondo {
-    background-color: black;height: 200px
- }
+    background-color: black;
+    height: 200px;
+    border: 10px solid white;
+    height: 250px;
 
- .footer__texto{color: white;padding-left: 285px;}
- .footer__texto2{color: white;padding-left: 185px;font-family: 1px;}
- .logotipo__texto{color: white; margin-top: 0;
-     margin-bottom: 1rem;margin-left: 280px;border: 2px solid white; border-radius: 100px;}
+    .contenedor__logo__text {
+        margin-top: 20px;
+    }
+
+    .footer__texto {
+        color:$color-primncipal;
+        padding-left: 285px;
+    }
+
+    .footer__texto2 {
+        color: white;
+        padding-left: 185px;
+        font-family: 1px;
+    }
+
+    .logotipo__texto {
+        color: $color-primncipal;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 280px;
+        border: 2px solid white;
+        border-radius: 100px;
+    }
+}
