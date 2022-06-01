@@ -543,6 +543,9 @@
   .size__letra__titulo {
     font-size: 75px;
   }
+  .Header__Titulo__Fondo {
+    height: 800px;
+  }
 }
 
 @media screen and (max-width: 339px) {
