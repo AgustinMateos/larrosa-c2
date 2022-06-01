@@ -1,24 +1,31 @@
 .Header__Titulo__Fondo {
-    background-color: black;
+    background-color: $colorAlternativo;
     height: 600px;
     border: 10px solid white;
 
     .img__logo {
-        height: 250px;
-        width: 250px;
-        border: 2px solid white;
-        border-radius: 170px;
-        margin-top: 30px;
-        padding-top: 20px;
+        height: map-get($estilos__img__logo, height);
+        width: map-get($estilos__img__logo, width);
+        border: map-get($estilos__img__logo, border2PX);
+        border-radius: map-get($estilos__img__logo, b-radius);
+        margin-top: map-get($estilos__img__logo, marg-top);
+        padding-top: map-get($estilos__img__logo, padd-top);
+        transition: map-get($estilos__img__logo, transition);
+
+    }
+
+    .img__logo:hover {
+        transform: scale(1.2);
     }
 
     .since__header {
         margin-top: 0;
         margin-bottom: 1rem;
-        color:$color-primncipal;
+        color: $color-primncipal;
         padding-left: 20px;
         padding-top: 30px;
         font-size: 40px;
+
     }
 }
 
@@ -40,4 +47,13 @@
 
 .navbar-toggler {
     background-color: $color-primncipal;
+}
+
+.contenedor__logotipo__texto .logotipo {
+    height: 200px;
+    width: 200px;
+    border: 2px white;
+    border-radius: 160px;
+    margin-top: 20px;
+
 }

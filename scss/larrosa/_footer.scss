@@ -1,5 +1,5 @@
 .footer__fondo {
-    background-color: black;
+    background-color: $colorAlternativo;
     height: 200px;
     border: 10px solid white;
     height: 250px;
@@ -9,7 +9,7 @@
     }
 
     .footer__texto {
-        color:$color-primncipal;
+        color: $color-primncipal;
         padding-left: 285px;
     }
 

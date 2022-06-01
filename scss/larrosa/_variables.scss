@@ -1,1 +1,9 @@
-$color-primncipal:white
+$color-primncipal:white;
+$colorAlternativo: black;
+$fondos:(header:black, main:black, footer:black);
+$estilos__img__logo:(height:250px, width: 250px,
+    border2PX: 2px solid white,
+    b-radius: 170px,
+    marg-top: 30px,
+    padd-top: 20px,
+    transition: 3s)

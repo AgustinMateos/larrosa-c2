@@ -18,7 +18,26 @@
         padding-left: 155px;
     }
 }
+@media screen and (max-width:1090px) {
+    .size__letra__titulo {
+        font-size: 150px
+    }
 
+    .logotipo__texto {
+
+        margin-left: 140px;
+
+    }
+
+    .footer__texto {
+        padding-left: 105px;
+    }
+
+    .footer__texto2 {
+        color: $color-primncipal;
+        padding-left: 105px;
+    }
+}
 
 @media screen and (max-width:992px) {
     .size__letra__titulo {
@@ -425,7 +444,7 @@
     }
 
     .footer__texto {
-        padding-left: 125px;
+        padding-left: 105px;
     }
 
     .footer__texto2 {
