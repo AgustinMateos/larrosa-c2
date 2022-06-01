@@ -23,19 +23,24 @@
         font-size: 150px
     }
 
-    .logotipo__texto {
-
-        margin-left: 140px;
-
+    .footer__fondo .logotipo__texto {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 230px;
+        border: 2px solid white;
+        border-radius: 100px;
     }
 
-    .footer__texto {
-        padding-left: 105px;
+    .footer__fondo .footer__texto {
+        color: white;
+        padding-left: 237px;
     }
 
-    .footer__texto2 {
-        color: $color-primncipal;
-        padding-left: 105px;
+    .footer__fondo .footer__texto2 {
+        color: white;
+        padding-left: 125px;
+       
     }
 }
 
@@ -68,40 +73,99 @@
         font-size: 120px
     }
 
-    .logotipo__texto {
-
-        margin-left: 170px;
-
+    .footer__fondo .logotipo__texto {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 160px;
+        border: 2px solid white;
+        border-radius: 100px;
     }
 
-    .footer__texto {
-        padding-left: 180px;
+    .footer__fondo .footer__texto {
+        color: white;
+        padding-left: 177px;
     }
 
-    .footer__texto2 {
-        color: $color-primncipal;
-        padding-left: 100px;
+    .footer__fondo .footer__texto2 {
+        color: white;
+        padding-left: 75px;
+       
     }
 }
-
-@media screen and (max-width:769px) {
+@media screen and (max-width:795px) {
     .size__letra__titulo {
         font-size: 120px
     }
 
-    .logotipo__texto {
-
-        margin-left: 320px;
-
+    .footer__fondo .logotipo__texto {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 130px;
+        border: 2px solid white;
+        border-radius: 100px;
     }
 
-    .footer__texto {
-        padding-left: 330px;
+    .footer__fondo .footer__texto {
+        color: white;
+        padding-left: 139px;
     }
 
-    .footer__texto2 {
-        color: $color-primncipal;
-        padding-left: 230px;
+    .footer__fondo .footer__texto2 {
+        color: white;
+        padding-left: 55px;
+       
+    }
+}
+@media screen and (max-width:795px) {
+    .size__letra__titulo {
+        font-size: 120px
+    }
+
+    .footer__fondo .logotipo__texto {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 130px;
+        border: 2px solid white;
+        border-radius: 100px;
+    }
+
+    .footer__fondo .footer__texto {
+        color: white;
+        padding-left: 139px;
+    }
+
+    .footer__fondo .footer__texto2 {
+        color: white;
+        padding-left: 55px;
+       
+    }
+}
+@media screen and (max-width:769px) {
+    .size__letra__titulo {
+        font-size: 100px
+    }
+
+    .footer__fondo .logotipo__texto {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 270px;
+        border: 2px solid white;
+        border-radius: 100px;
+    }
+
+    .footer__fondo .footer__texto {
+        color: white;
+        padding-left: 279px;
+    }
+
+    .footer__fondo .footer__texto2 {
+        color: white;
+        padding-left: 195px;
+       
     }
 
     .index__fondo__main {
@@ -131,48 +195,31 @@
     }
 }
 
-@media screen and (max-width:690px) {
+
+
+@media screen and (max-width:615px) {
     .size__letra__titulo {
         font-size: 100px
     }
 
-    .logotipo__texto {
-
-        margin-left: 290px;
-
-    }
-
-    .footer__texto {
-        padding-left: 300px;
-    }
-
-    .footer__texto2 {
+    .footer__fondo .logotipo__texto {
         color: white;
-        padding-left: 200px;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 220px;
+        border: 2px solid white;
+        border-radius: 100px;
     }
 
-    .padding__titulo__main {
-        padding-left: 70px;
-    }
-}
-
-@media screen and (max-width:690px) {
-    .size__letra__titulo {
-        font-size: 100px
+    .footer__fondo .footer__texto {
+        color: white;
+        padding-left: 229px;
     }
 
-    .logotipo__texto {
-
-        margin-left: 240px;
-
-    }
-
-    .footer__texto {
-        padding-left: 250px;
-    }
-
-    .footer__texto2 {
-        padding-left: 160px;
+    .footer__fondo .footer__texto2 {
+        color: white;
+        padding-left: 125px;
+       
     }
 
     .size__letra__menu {
@@ -189,294 +236,189 @@
 }
 
 
-@media screen and (max-width:502px) {
-    .size__letra__titulo {
-        font-size: 90px
+@media screen and (max-width:604px) {
+   
+
+    .footer__fondo .logotipo__texto {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 200px;
+        border: 2px solid white;
+        border-radius: 100px;
     }
 
-    .logotipo__texto {
-
-        margin-left: 190px;
-
+    .footer__fondo .footer__texto {
+        color: white;
+        padding-left: 209px;
     }
 
-    .footer__texto {
-        padding-left: 200px;
-    }
-
-    .footer__texto2 {
-
-        padding-left: 100px;
-    }
-
-    .index__fondo__main {
-        height: 1500px;
-    }
-
-    .padding__contenedor {
-        padding-left: 150px;
-    }
-
-    .botones__index__M {
-        font-size: 40px;
-        border: 4px solid white;
-        margin-top: 90px;
-        font-family: "Permanent Marker";
-        padding-left: 30px;
-        width: 250px;
-    }
-
-    .botones__index__H {
-        font-size: 40px;
-        border: 4px solid white;
-        margin-top: 90px;
-        font-family: "Permanent Marker";
-        padding-left: 30px;
-        width: 250px;
+    .footer__fondo .footer__texto2 {
+        color: white;
+        padding-left: 105px;
+       
     }
 
     .size__letra__menu {
         font-size: 20px
     }
 
+    .flex-direction {
+        flex-direction: row;
+    }
+
+    .Header__Titulo__Fondo {
+        height: 700px;
+    }
+}
+
+
+@media screen and (max-width:460px) {
     .padding__contenedor {
-        padding-left: 100px;
-    }
-}
-
-@media screen and (max-width:502px) {
-    .size__letra__titulo {
-        font-size: 60px
+        padding-left: 90px;
     }
 
-    .padding__titulo__main {
-        padding-left: 99px;
-    }
-
-    .botones__index__M {
-        font-size: 20px;
-        border: 4px solid white;
-        margin-top: 90px;
-        font-family: "Permanent Marker";
-        padding-left: 50px;
-        width: 250px;
-    }
-
-    .botones__index__H {
-        font-size: 20px;
-        border: 4px solid white;
-        margin-top: 90px;
-        font-family: "Permanent Marker";
-        padding-left: 50px;
-        width: 250px;
-    }
-
-    .index__fondo__main {
-        height: 1000px;
-    }
-
-    .padding__contenedor {
-        padding-left: 70px;
-    }
-}
-
-@media screen and (max-width:502px) {
-    .size__letra__titulo {
-        font-size: 60px
-    }
-
-    .padding__titulo__main {
-        padding-left: 99px;
-    }
-
-    .botones__index__M {
-        font-size: 20px;
-        border: 4px solid white;
-        margin-top: 90px;
-        font-family: "Permanent Marker";
-        padding-left: 50px;
-        width: 250px;
-    }
-
-    .imagenes {
-        width: 200px;
-        height: 500px;
-        border: 10px solid white;
-        border-radius: 170px;
-    }
-
-    .botones__index__H {
-        font-size: 20px;
-        border: 4px solid white;
-        margin-top: 90px;
-        font-family: "Permanent Marker";
-        padding-left: 50px;
-        width: 250px;
-    }
-
-
-}
-
-@media screen and (max-width:435px) {
-    .size__letra__titulo {
-        font-size: 60px
-    }
-
-    .padding__titulo__main {
-        padding-left: 89px;
-    }
-
-    .botones__index__M {
-        font-size: 20px;
-        border: 4px solid white;
-        margin-top: 90px;
-        font-family: "Permanent Marker";
-        padding-left: 50px;
-        width: 250px;
-    }
-
-    .botones__index__H {
-        font-size: 20px;
-        border: 4px solid white;
-        margin-top: 90px;
-        font-family: "Permanent Marker";
-        padding-left: 50px;
-        width: 250px;
-    }
-
-    .index__fondo__main {
-        height: 1200px;
-    }
-
-    .logotipo__texto {
-
-        margin-left: 150px;
-
-    }
-
-    .footer__texto {
-        padding-left: 166px;
-    }
-
-    .footer__texto2 {
-
-        padding-left: 80px;
-    }
-
-}
-
-@media screen and (max-width:410px) {
     .size__letra__titulo {
         font-size: 80px
     }
 
-    .padding__titulo__main {
-        padding-left: 40px;
+
+    .footer__fondo .logotipo__texto {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 180px;
+        border: 2px solid white;
+        border-radius: 100px;
     }
 
-    .botones__index__M {
-        font-size: 20px;
-        border: 4px solid white;
-        margin-top: 90px;
-        font-family: "Permanent Marker";
-        padding-left: 50px;
-        width: 250px;
+    .footer__fondo .footer__texto {
+        color: white;
+        padding-left: 189px;
     }
 
-    .botones__index__H {
-        font-size: 20px;
-        border: 4px solid white;
-        margin-top: 90px;
-        font-family: "Permanent Marker";
-        padding-left: 50px;
-        width: 250px;
+    .footer__fondo .footer__texto2 {
+        color: white;
+        padding-left: 95px;
+       
     }
 
-
-    .logotipo__texto {
-
-        margin-left: 150px;
-
+    .size__letra__menu {
+        font-size: 20px
     }
 
-    .footer__texto {
-        padding-left: 160px;
+    .flex-direction {
+        flex-direction: row;
     }
 
-    .footer__texto2 {
-
-        padding-left: 50px;
+    .Header__Titulo__Fondo {
+        height: 700px;
     }
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:429px) {
+    .padding__contenedor {
+        padding-left: 70px;
+    }
+
+    .size__letra__titulo {
+        font-size: 80px
+    }
+
+
+    .footer__fondo .logotipo__texto {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 140px;
+        border: 2px solid white;
+        border-radius: 100px;
+    }
+
+    .footer__fondo .footer__texto {
+        color: white;
+        padding-left: 149px;
+    }
+
+    .footer__fondo .footer__texto2 {
+        color: white;
+        padding-left: 55px;
+       
+    }
+
+    .size__letra__menu {
+        font-size: 20px
+    }
+
+    .flex-direction {
+        flex-direction: row;
+    }
+
+    .Header__Titulo__Fondo {
+        height: 700px;
+    }
+}
+@media screen and (max-width:393px) {
+ 
+
+    .padding__contenedor {
+        padding-left: 40px;
+    }
+    .footer__fondo .logotipo__texto {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 120px;
+        border: 2px solid white;
+        border-radius: 100px;
+    }
+
+    .footer__fondo .footer__texto {
+        color: white;
+        padding-left: 129px;
+    }
+
+    .footer__fondo .footer__texto2 {
+        color: white;
+        padding-left: 25px;
+       
+    }
+
+    
     .size__letra__titulo {
         font-size: 75px
     }
 
-    .padding__titulo__main {
+}
+@media screen and (max-width:339px) {
+ 
+
+    .padding__contenedor {
         padding-left: 25px;
     }
-
-    .botones__index__M {
-        font-size: 20px;
-        border: 4px solid white;
-        margin-top: 90px;
-        font-family: "Permanent Marker";
-        padding-left: 50px;
-        width: 250px;
+    .footer__fondo .logotipo__texto {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 90px;
+        border: 2px solid white;
+        border-radius: 100px;
     }
 
-    .botones__index__H {
-        font-size: 20px;
-        border: 4px solid white;
-        margin-top: 90px;
-        font-family: "Permanent Marker";
-        padding-left: 50px;
-        width: 250px;
+    .footer__fondo .footer__texto {
+        color: white;
+        padding-left: 100px;
     }
 
-
-    .logotipo__texto {
-
-        margin-left: 110px;
-
+    .footer__fondo .footer__texto2 {
+        color: white;
+        padding-left: 25px;
+        font-size: 14px;
     }
 
-    .footer__texto {
-        padding-left: 105px;
-    }
-
-    .footer__texto2 {
-
-        padding-left: 35px;
-
-    }
-
-    .padding__contenedor {
-        padding-left: 40px;
-    }
-}
-
-@media screen and (max-width:343px) {
-    .padding__titulo__main {
-        padding-left: 15px;
-    }
-
-    .Header__Titulo__Fondo {
-        background-color: black;
-        height: 700px;
-    }
-
-    .padding__contenedor {
-        padding-left: 20px;
-    }
-}
-
-
-@media screen and (max-width:326px) {
-
+    
     .size__letra__titulo {
         font-size: 65px
     }
+
 }
