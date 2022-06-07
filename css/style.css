@@ -50,8 +50,8 @@
 }
 
 .Header__Titulo__Fondo .img__logo {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   border: 4px solid white;
   border-radius: 170px;
   margin-top: 30px;
@@ -59,7 +59,7 @@
 }
 
 .Header__Titulo__Fondo .img__logo:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .Header__Titulo__Fondo .since__header {
