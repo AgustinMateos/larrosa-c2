@@ -44,29 +44,30 @@
 }
 
 .Header__Titulo__Fondo {
-  background-image: "url(../../imagenes/modelo-de-la-tela-escocesa-del-leñador-en-rojo-y-negro-modelo-inconsútil-del-vector-diseño-simple-de-la-materia-textil-del-95112081.jpeg)";
+  /*background-image: "url(../../imagenes/modelo-de-la-tela-escocesa-del-leñador-en-rojo-y-negro-modelo-inconsútil-del-vector-diseño-simple-de-la-materia-textil-del-95112081.jpeg)";*/
+  background-color: black;
+  background-image: url(/imagenes/a320f9b96cb4f3acfd193e0666fdaa6a.jpeg);
   height: 600px;
   border: 10px solid white;
 }
 
 .Header__Titulo__Fondo .img__logo {
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   border: 4px solid white;
-  border-radius: 170px;
+  border-radius: 180px;
   margin-top: 30px;
   transition: 3s;
 }
 
 .Header__Titulo__Fondo .img__logo:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .Header__Titulo__Fondo .since__header {
   margin-top: 0;
   margin-bottom: 1rem;
   color: white;
-  padding-left: 20px;
   padding-top: 30px;
   font-size: 40px;
 }
