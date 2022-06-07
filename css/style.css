@@ -194,6 +194,10 @@
   border-radius: 100px;
 }
 
+.size__letra__titulo2 {
+  font-size: 150px;
+}
+
 .contenedor__main__contacto {
   background-color: black;
   border: 10px solid white;
@@ -674,9 +678,9 @@
   }
 }
 
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 339px) {
   .caja__texto__formulario {
-    padding-left: 50px;
+    padding-left: 30px;
     font-size: 17px;
     height: 800px;
     width: 500px;
@@ -729,6 +733,24 @@
   .mujeres__contenedor__imagenes {
     margin-bottom: 20px;
     height: 1900px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .size__letra__titulo2 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 497px) {
+  .size__letra__titulo2 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .size__letra__titulo2 {
+    font-size: 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */
