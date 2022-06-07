@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -87,7 +88,7 @@
 }
 
 .Header__Titulo__Fondo {
-  background-color: black;
+  background-image: url(/imagenes/modelo-de-la-tela-escocesa-del-leñador-en-rojo-y-negro-modelo-inconsútil-del-vector-diseño-simple-de-la-materia-textil-del-95112081.jpeg);
   height: 600px;
   border: 10px solid white;
 }
